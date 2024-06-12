@@ -6,8 +6,8 @@ const Index = () => {
 
   const fetchData = async () => {
     try {
-      const response = await axios.get("http://localhost:5000");
-      console.log("ruhfey", response.data);
+      const response = await axios.get("https://feedback-sepia-eight.vercel.app/");
+      
       setAllFeedback(response.data); // Make sure this is an array
     } catch (error) {
       console.log(error);
