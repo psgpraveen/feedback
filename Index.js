@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(cors());
 
 // MongoDB connection
-const url = process.env.MONGO_URL || "mongodb://localhost:27017";
+const url = "mongodb+srv://adm21002947:Gupta123@cluster0.syqwwwc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/feedback" || "mongodb://localhost:27017";
 mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log("Mongodb is connected"))
   .catch(err => console.error("Mongodb connection error:", err));
