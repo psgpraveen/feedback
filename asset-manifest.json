@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/feedback/static/css/main.c99fb28f.css",
-    "main.js": "/feedback/static/js/main.86396c6c.js",
+    "main.js": "/feedback/static/js/main.a94c9e7e.js",
     "static/js/488.501efbe2.chunk.js": "/feedback/static/js/488.501efbe2.chunk.js",
     "static/media/Email-campaign-amico.png": "/feedback/static/media/Email-campaign-amico.f16dc354be8560f8d565.png",
     "index.html": "/feedback/index.html",
     "main.c99fb28f.css.map": "/feedback/static/css/main.c99fb28f.css.map",
-    "main.86396c6c.js.map": "/feedback/static/js/main.86396c6c.js.map",
+    "main.a94c9e7e.js.map": "/feedback/static/js/main.a94c9e7e.js.map",
     "488.501efbe2.chunk.js.map": "/feedback/static/js/488.501efbe2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c99fb28f.css",
-    "static/js/main.86396c6c.js"
+    "static/js/main.a94c9e7e.js"
   ]
 }
