@@ -34,7 +34,7 @@ const Index = () => {
     }
      else {
     try {
-      await axios.post("https://feedback-sepia-eight.vercel.app/", {
+      await axios.post("https://feedback-ashy-omega.vercel.app/", {
         msg,
         email,
         name,

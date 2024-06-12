@@ -6,7 +6,7 @@ const Index = () => {
 
   const fetchData = async () => {
     try {
-      const response = await axios.get("https://feedback-sepia-eight.vercel.app/");
+      const response = await axios.get("https://feedback-ashy-omega.vercel.app/");
       
       setAllFeedback(response.data); // Make sure this is an array
     } catch (error) {
@@ -16,7 +16,7 @@ const Index = () => {
 
   useEffect(() => {
     fetchData();
-  }, []); // Empty dependency array means this effect will only run once after the initial render
+  }, [fetchData]); 
 
   return (<div class="bg-white py-6 sm:py-8 lg:py-12">
     <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
